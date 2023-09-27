@@ -1,0 +1,13 @@
+.first{
+    display: flex;
+}
+.first p{
+    background-image: url(download.png);
+    background-size: contain;
+    width: 79px;
+    height: 24px;
+    margin-left: 20px;
+}
+.second{
+    display: flex;
+}
