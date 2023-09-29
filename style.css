@@ -10,15 +10,32 @@ body{
     margin-left: -9px;
     height: 60px;
     margin-top: -8px;
+    /* width: 200vw; */
+    /* overflow: hidden; */
     
 }
+@media (max-width: 480px
+){
+    .first{
+       width: 100%;
+    }
+    
+}
+
 .image{
     background-image: url(download.png);
-    background-size: contain;
+    background-size: cover;
     width: 79px;
     height: 24px;
     margin-left: 20px;
    
+}
+@media (max-width:480px){
+    .image{
+        background-image: url(download.png);
+        background-size: cover;
+
+    }
 }
 
 .first h1{
@@ -198,17 +215,39 @@ body{
     background: darkslategray;
     color: white;
     margin-left: -9px;
+    height: 40px;
+    /* width: 200vw; */
     
 }
-.second h1{
+.hamburger h1{
     margin: 9px;
     font-size: 15px;
     margin-left: 20px;
 
 }
-.second h1:hover{
+.hamburger h1:hover{
     cursor: pointer;
     border: 1.5px solid white;
+    
+}
+.ham{
+    background-color: white;
+    color: black;
+    margin-right: -220px;
+    position: relative;
+    top: 50px;
+    display: none;
+    
+}
+.ham p{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    height: 20px;
+    padding: 10px;
+    width: 250px;
     
 }
 
