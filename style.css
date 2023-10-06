@@ -568,3 +568,13 @@ body{
         color: orange;
     }
 }
+#pice {
+    background-color: white;
+    width: 100vw;
+
+}
+#price strong {
+    font-size: larger;
+    /* position: fixed; */
+    margin-left: 30px;
+}
