@@ -568,13 +568,76 @@ body{
         color: orange;
     }
 }
-#pice {
+#home {
     background-color: white;
+    margin-left: 20px;
+    overflow-x: scroll;
+}
+#home div {
+    display: flex;
+    padding-top: 40PX;
+}
+#home h4 {
+   position:absolute;
+}
+#button {
     width: 100vw;
-
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: -180PX;
 }
-#price strong {
+#button button {
+    width: 50px;
+    height: 100px;
+    background-color: transparent;
+    border: 5px solid lightblue;
+    border-radius: 5px;
+    margin-left: -10px;
+    display: none;
+}
+#Home :hover {
+    button {
+        display: flex;
+    }
+}
+#slt {
+    width: 100vw;
+    background-color:#e3e6e6;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#slt div {
+    width:100%;
+    height: 450px;
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+    margin: 20px;
+}
+#slt div img {
+    width: 270px;
+    height: 300px;
+    margin: auto;
+    margin-top: -5px;
+}
+#slt div p {
     font-size: larger;
-    /* position: fixed; */
-    margin-left: 30px;
+    margin-left: 28px;
+    margin-top: 30px;
+    font-weight: bolder;
 }
+#slt div a {
+    margin-left:28px ;
+    margin-bottom: 30px;
+    font-size: small;
+    text-decoration: none;
+    color: rgb(115, 178, 178);
+}
+#slt :hover {
+    a {
+        color: orange;
+    }
+}
+
